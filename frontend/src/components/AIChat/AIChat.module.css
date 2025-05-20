@@ -1,0 +1,34 @@
+.toggleAIChatButton {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background: black;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+}
+
+.toggleAIChatButton:hover {
+  background: #333;
+}
+
+.chatPanel {
+  position: absolute !important;
+  bottom: 60px !important;
+  right: 0 !important;
+  height: 400px !important;
+  min-width: 320px !important;
+  max-width: 500px !important;
+}
+
+.hidden {
+  display: none;
+}
